@@ -12,9 +12,9 @@ parameters.lambda = 100;
 %Step length of PSD
 parameters.t0 = 1e-6;
 %Number of steps of PSD for each metric
-parameters.iter = 200;
+parameters.iter = 800;
 %Number of epoches of two steps
-parameters.epoch = 5;
+parameters.epoch = 10;
 %Number of k-nearest neighbors when testing
 parameters.kneigh = 5;
 

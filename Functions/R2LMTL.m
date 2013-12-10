@@ -90,7 +90,7 @@ for k = 1:NumMa_K
     eval(['L_Con=[L_Con,L',num2str(k),'];']);
 end
 disp(['***Testing Phase***'])
-[label,accurancy] = testknn(train_data,test_data,L_Con,NumMa_K,g,Kneigh);
+[label,accurancy] = Testknn(train_data,test_data,L_Con,NumMa_K,g,Kneigh);
 %save label label;
 disp(['***The final result of classification is ',num2str(accurancy*100),';***']);
 Accu = accurancy;
